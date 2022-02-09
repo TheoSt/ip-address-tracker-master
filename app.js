@@ -7,7 +7,8 @@ let ip_info = document.querySelector(".ip_info");
 let ip_form = document.querySelector("#ip_form");
 let ip_input = document.querySelector("#ip_input");
 
-var API_KEY = config.API_KEY;
+const API_KEY = "pk.eyJ1IjoidGVvc3RhbWF0aWFkaXMiLCJhIjoiY2t6ZmZvemtuMnN4NzJybjk3dHU1dWt1OCJ9.dNaYOxOB7obCYJMBcmhYXQ"
+
 
 let map = L.map('map');
 let myIcon = L.icon({
