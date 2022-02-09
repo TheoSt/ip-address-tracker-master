@@ -7,6 +7,8 @@ let ip_info = document.querySelector(".ip_info");
 let ip_form = document.querySelector("#ip_form");
 let ip_input = document.querySelector("#ip_input");
 
+var API_KEY = config.API_KEY;
+
 let map = L.map('map');
 let myIcon = L.icon({
     iconUrl:'images/icon-location.svg',
