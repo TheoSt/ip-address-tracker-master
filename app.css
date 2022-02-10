@@ -125,7 +125,11 @@ input:focus {
 .ip_info p {
     font-weight:500;
     color:hsl(0, 0%, 17%);
-    font-size:1rem;
+    font-size:0.9rem;
+}
+
+#isp_text {
+    font-size:0.7rem;
 }
 
 #map {
