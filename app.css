@@ -193,6 +193,10 @@ footer a:visited  {
         top:-5%;
     }
 
+    .ip_info div:not(:last-of-type) {
+        border-right:1px solid  hsl(0, 1%, 76%);
+    }
+
     footer {
         font-size:0.9rem;
     }
