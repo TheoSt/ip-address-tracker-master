@@ -70,6 +70,6 @@ function showInfo(data) {
 }
 
 function showMap(lat,lon) {
-    map.setView([lat,lon],15);
+    map.setView([lat,lon],13);
     L.marker([lat,lon],{icon:myIcon}).addTo(map);
 }
