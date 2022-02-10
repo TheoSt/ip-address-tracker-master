@@ -93,7 +93,7 @@ input:focus {
     width:75%;
     max-height:0;
     overflow:hidden;
-    top:-15%;
+    top:-12%;
     left:0;
     bottom:0;
     right:0;
@@ -142,6 +142,21 @@ input:focus {
     z-index:0;
 }
 
+footer {
+    text-align:center;
+    font-size:0.7rem;
+    padding:1rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color:rgb(5, 54, 187);
+}
+
+footer a:visited  {
+    color:rgb(5, 54, 187);
+}
+
 
 @media screen and (min-width:500px) {
     #form_section input[type="text"] {
@@ -176,6 +191,10 @@ input:focus {
         width:70%;
         height:100px;
         top:-5%;
+    }
+
+    footer {
+        font-size:0.9rem;
     }
 }
 
