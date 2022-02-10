@@ -51,7 +51,7 @@ main {
     align-items: center;
 }
 
-#form_section input[type="text"] {
+#ip_input {
     display:block;
     padding:10px;
     border-radius:6px 0 0 6px;
@@ -63,12 +63,16 @@ input:focus {
     outline:none;
 }
 
-#form_section input[type="image"]{
+#arrow_btn {
     display:block;
     background-color:black;
     border-radius:0 6px 6px 0;
     padding:10.5px;
     border:0;
+}
+
+#arrow_btn:hover {
+    background-color:rgba(0, 0, 0, 0.671);
 }
 
 #form_section p {
